@@ -52,6 +52,18 @@ hunter_add_version(
     75a05fcc928ed52e1eeb93f07a1c78a7890860c0
 )
 
+hunter_add_version(
+        PACKAGE_NAME
+        ZLIB
+        VERSION
+        "nodejs-hunter"
+        URL
+        "https://github.com/madmongo1/nodejz-zlib/archive/master.tar.gz"
+        SHA1
+        3df1f961c20a377e5634762ea558e5767fd2ee48
+)
+
+
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(ZLIB)
 hunter_download(PACKAGE_NAME ZLIB)
