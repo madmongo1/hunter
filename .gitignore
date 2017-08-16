@@ -25,3 +25,6 @@ _Base
 # emacs junk
 *.*~
 *~
+
+# clion junk
+.idea/
